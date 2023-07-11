@@ -1,6 +1,6 @@
 #! /bin/bash
 
-ssh cdsl@c0a20092-sqltest 'mkdir ~/nfs_wp && mkdir ~/nfs_sql'
+ssh user1@NFS-Server 'mkdir ~/nfs_wp && mkdir ~/nfs_sql'
 
 sudo tar -czvf wordpress.tar.gz -C /var/www/html .
 
